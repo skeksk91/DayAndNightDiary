@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:morning_diary/DiaryModel.dart';
 
 class Header extends StatelessWidget {
-  final DateTime now;
+  final DiaryModel now;
 
   const Header({
     Key key,
